@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Nusrat Islam Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-900 font-sans">
+    <!-- Navbar -->
+    <header class="bg-gradient-to-r from-purple-500 to-blue-500 text-white p-4">
+        <nav class="container mx-auto flex justify-between items-center">
+            <div class="text-lg font-bold">Nusrat Islam</div>
+            <ul class="flex space-x-6">
+                <li><a href="#about" class="hover:text-gray-200">About</a></li>
+                <li><a href="#skills" class="hover:text-gray-200">Skills</a></li>
+                <li><a href="#projects" class="hover:text-gray-200">Projects</a></li>
+                <li><a href="#contact" class="hover:text-gray-200">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section with Profile Photo -->
+    <section class="bg-gray-900 text-white text-center py-16">
+        <div class="container mx-auto flex flex-col items-center">
+            <img src="image/HTML-CSS-Bootstrap-Tailwind-JavaScript-Figma-xd-pdf.jpg" alt="Nusrat Islam" class="w-32 h-32 rounded-full border-4 border-white mb-4">
+            <h1 class="text-4xl font-bold">Hello, I'm Nusrat Islam</h1>
+            <p class="text-xl mt-4">Front-End Developer specializing in modern web technologies</p>
+            <a href="#contact" class="bg-blue-500 px-6 py-2 rounded-full mt-6 hover:bg-blue-600 transition duration-300">Hire Me</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="container mx-auto py-12">
+        <h2 class="text-3xl font-bold mb-4 text-center">About Me</h2>
+        <div class="flex flex-col md:flex-row items-center">
+            <div class="w-full md:w-1/2 p-4">
+                <img src="profile-working.jpg" alt="Working" class="w-full rounded-lg shadow-lg">
+            </div>
+            <div class="w-full md:w-1/2 p-4">
+                <p class="text-lg leading-relaxed">
+                    I am a passionate front-end developer with experience in creating dynamic and responsive websites. I enjoy working with HTML, CSS, JavaScript, and various frameworks like Tailwind CSS and Bootstrap to bring designs to life. My goal is to create seamless and engaging user experiences.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="bg-gradient-to-r from-purple-500 to-blue-500 text-white py-12">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold mb-4 text-center">Skills</h2>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+                <div class="bg-white text-blue-500 p-4 shadow-md text-center rounded-lg">HTML</div>
+                <div class="bg-white text-blue-500 p-4 shadow-md text-center rounded-lg">CSS</div>
+                <div class="bg-white text-blue-500 p-4 shadow-md text-center rounded-lg">Tailwind CSS</div>
+                <div class="bg-white text-blue-500 p-4 shadow-md text-center rounded-lg">Bootstrap</div>
+                <div class="bg-white text-blue-500 p-4 shadow-md text-center rounded-lg">JavaScript</div>
+                <div class="bg-white text-blue-500 p-4 shadow-md text-center rounded-lg">WordPress</div>
+                <div class="bg-white text-blue-500 p-4 shadow-md text-center rounded-lg">Figma</div>
+                <div class="bg-white text-blue-500 p-4 shadow-md text-center rounded-lg">PSD to HTML</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="container mx-auto py-12">
+        <h2 class="text-3xl font-bold mb-4 text-center">Projects</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div class="bg-white p-6 shadow-lg rounded-lg hover:shadow-2xl transition duration-300">
+                <h3 class="font-bold text-xl mb-2">Project 1</h3>
+                <p>A responsive website built using HTML, CSS, and Tailwind CSS.</p>
+            </div>
+            <div class="bg-white p-6 shadow-lg rounded-lg hover:shadow-2xl transition duration-300">
+                <h3 class="font-bold text-xl mb-2">Project 2</h3>
+                <p>A custom WordPress theme developed for a blog site.</p>
+            </div>
+            <div class="bg-white p-6 shadow-lg rounded-lg hover:shadow-2xl transition duration-300">
+                <h3 class="font-bold text-xl mb-2">Project 3</h3>
+                <p>A landing page design implemented using Bootstrap and JavaScript.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="bg-gradient-to-r from-blue-500 to-purple-500 text-white py-12">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-4">Get In Touch</h2>
+            <p>If you'd like to work with me or just say hello, feel free to send me a message!</p>
+            <a href="mailto:nusrat@example.com" class="bg-white text-blue-500 px-6 py-2 rounded-full mt-4 inline-block hover:bg-gray-200 transition duration-300">Contact Me</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white text-center py-4">
+        <p>&copy; 2024 Nusrat Islam. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
